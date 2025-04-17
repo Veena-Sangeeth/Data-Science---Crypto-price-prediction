@@ -74,3 +74,12 @@ Provide the crypto name (e.g., ADA), date range, and select desired sources.
 
 ---
 
+## Technical Note on the Excel Macros
+
+- The **VBA code** is attached to both blue buttons in the Excel file:
+  - One imports the Word document into the sheet
+  - The second parses and structures the data
+- A combination of `Split()` functions and **lookup formulas** are used to extract and place the **Title**, **Date**, and **Source** into separate columns.
+
+---
+
